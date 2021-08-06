@@ -1,5 +1,5 @@
-<h1 align="center"> Câmera no Flutter 🤳</h1>
-<h4 align="center">Projetinho modelo para demostrar como utilizar o plugin para tirar fotos com a câmera do smartphone ou selecionar arquivos com o image picker. 📸</h4>
+<h1 align="center"> Câmera no Flutter 📸</h1>
+<h3 align="center">Projetinho modelo para demostrar como utilizar o plugin para tirar fotos com a câmera<br> do smartphone ou selecionar arquivos com o image picker.</h3>
 
 <img src="https://i.imgur.com/NcKGUFg.png">
 
