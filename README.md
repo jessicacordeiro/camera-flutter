@@ -1,7 +1,7 @@
 <h1 align="center"> Câmera no Flutter 🤳</h1>
 <h4 align="center">Projetinho modelo para demostrar como utilizar o plugin para tirar fotos com a câmera do smartphone ou selecionar arquivos com o image picker. 📸</h4>
 
-## O que foi aplicado: 
+## 📚 O que foi aplicado: 
 
 - [x] Implementações de Plugins conforme os docs dos package camera_camera e image_picker
 - [x] Utilização dos componentes Material design e dart.io
@@ -10,7 +10,7 @@
 - [x] Implemetação da CameraPreview para exibir o feed da câmera
 
 
-## Futuras implementações 
+## 💣 Futuras implementações:
 
 - [ ] Criação de um button que lê um QRCODE
 
@@ -20,5 +20,5 @@
 - <a href="pub.dev/packages/image_picker">Package image_picker</a> <br>
 - <a href="https://flutter.dev/docs/cookbook/plugins/picture-using-camera">Documentação Flutter - Tire uma foto usando a câmera</a> <br>
 - <a href="https://flutter.dev/docs/development/packages-and-plugins/using-packages">Documentação Flutter - Usando Pacotes</a>
-- <a href="https://www.youtube.com/watch?v=WJyBZyWrPG4">Aula 10 - Como usar a Câmera e Image Picker no Flutter by Prof° Diego Antunes</a>
+- <a href="https://www.youtube.com/watch?v=WJyBZyWrPG4">Aula 10 - Prof° Diego Antunes</a>
 
