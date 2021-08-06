@@ -1,6 +1,8 @@
 <h1 align="center"> Câmera no Flutter 🤳</h1>
 <h4 align="center">Projetinho modelo para demostrar como utilizar o plugin para tirar fotos com a câmera do smartphone ou selecionar arquivos com o image picker. 📸</h4>
 
+<img src="https://i.imgur.com/NcKGUFg.png">
+
 ## 📚 O que foi aplicado: 
 
 - [x] Implementações de Plugins conforme os docs dos package camera_camera e image_picker
