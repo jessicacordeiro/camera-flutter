@@ -14,7 +14,9 @@
 
 ## 💣 Futuras implementações:
 
-- [ ] Criação de um button que lê um QRCODE
+- [x] Colocar na dependência do pubspec.yaml os puglins qrcode_reader e qr_flutter
+- [ ] Alteração do layout para colocar um button QRCODE que navegue para uma próxima tela
+- [ ] Implementação dos plugins que leiam e exibe o Qr Code na tela
 
 ## Links das Documentações, Plugins utilizados e vídeos do youtube para criar o projetinho:
 
