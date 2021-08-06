@@ -52,16 +52,26 @@ class _HomePageState extends State<HomePage> {
                   style: ElevatedButton.styleFrom(
                       elevation: 0.0,
                       textStyle: TextStyle(
-                        fontSize: 18,
+                        fontSize: 18.0,
                       )),
                 ),
                 Padding(
                   padding: EdgeInsets.all(12.0),
-                  child: Text('ou'),
+                  child: Text(
+                    'ou',
+                    style: TextStyle(
+                      fontSize: 18.0,
+                    ), 
+                  ),   
                 ),
                 OutlinedButton.icon(
                   icon: Icon(Icons.attach_file),
-                  label: Text('Selecione um arquivo'),
+                  label: Text(
+                    'Selecione um arquivo',
+                    style: TextStyle(
+                      fontSize: 16.0,
+                    ), 
+                  ),
                   onPressed: () => {},
                 ),
               ],

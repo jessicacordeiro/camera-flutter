@@ -20,8 +20,8 @@ class _AnexoState extends State<Anexo> {
       ),
       child: Center(
         child: SizedBox(
-          width: 200,
-          height: 200,
+          width: 300,
+          height: 400,
           child: ClipRRect(
             borderRadius: BorderRadius.circular(12.0),
             child: Image.file(
