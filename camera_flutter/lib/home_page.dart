@@ -4,6 +4,7 @@ import 'package:camera_flutter/preview_page.dart';
 import 'package:camera_flutter/widgets/anexo.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:image_picker/image_picker.dart';
 
 class HomePage extends StatefulWidget {
   HomePage({Key? key}) : super(key: key);
@@ -14,6 +15,15 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
   File? arquivo;
+  final picker = ImagePicker();
+
+  Future getFileFromGallery() async {
+    final file = await picker.getImage(source: ImageSource.gallery);
+
+    if(file != null) {
+      setState(() => arquivo = File(file.path));
+    }
+  }
 
   showPreview(file) async {
     File? arq = await Get.to(() => PreviewPage(file: file));
@@ -39,7 +49,7 @@ class _HomePageState extends State<HomePage> {
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
                 // ignore: unnecessary_null_comparison
-                if(arquivo != null) Anexo(arquivo: arquivo!),
+                if (arquivo != null) Anexo(arquivo: arquivo!),
                 ElevatedButton.icon(
                   onPressed: () => Get.to(
                     () => CameraCamera(onFile: (file) => showPreview(file)),
@@ -61,8 +71,8 @@ class _HomePageState extends State<HomePage> {
                     'ou',
                     style: TextStyle(
                       fontSize: 18.0,
-                    ), 
-                  ),   
+                    ),
+                  ),
                 ),
                 OutlinedButton.icon(
                   icon: Icon(Icons.attach_file),
@@ -70,9 +80,9 @@ class _HomePageState extends State<HomePage> {
                     'Selecione um arquivo',
                     style: TextStyle(
                       fontSize: 16.0,
-                    ), 
+                    ),
                   ),
-                  onPressed: () => {},
+                  onPressed: () => getFileFromGallery(),
                 ),
               ],
             )
